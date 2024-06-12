@@ -1,5 +1,5 @@
 ---
-title: "Womb2Word"
+title: "Womb2Word - test"
 author: "Huw Swanborough"
 date: "`r Sys.Date()`"
 output: html_document
@@ -10,12 +10,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-navbar:
-  title: "From Womb to Word"
-  Left:
-    -text: "Home"
-    href: index.html
-    
+<div style="text-align: center;">
+  <a href="index.html" class="btn btn-primary">Home</a>
+  <a href="about.html" class="btn btn-primary">About</a>
+  <a href="projects.html" class="btn btn-primary">Projects</a>
+  <a href="contact.html" class="btn btn-primary">Contact</a>
+</div>
+
+
 
 ## R Markdown
 
